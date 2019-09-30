@@ -1,0 +1,103 @@
+body {
+    background-color:moccasin;
+    margin: 0px;
+}
+/* style berbentuk class - BEGIN*/
+h1 {
+    color:rgb(42, 168, 190);
+    font-family:"segoe print";
+    font-size: 280%
+}
+h4 {
+    text-align: center;
+}
+a:hover {
+    color: chartreuse;
+}
+.container {
+    background-color: lightcyan) 
+}
+.logo{
+    text-align: center;
+}
+.jumbotron {
+    background-color: antiquewhite;
+    border: solid 1px;
+    border-radius: 8px;
+}
+.jumbotron h1{
+    margin: 20px 40px;
+    font-size: 24px 
+}
+.jumbotron h3 {
+    margin: 20px 40px;
+    font-size: 20px
+}
+.footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 10px 0px;
+    font-size: 11px;
+    text-align: center;
+}
+/* menu header - BEGIN */
+.menu-header {
+    text-align: center
+    background-color: black;
+    border-radius: 80px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0 6px 10px 0px rgba(0, 0, 0, 0.14),
+        0 1px 18px 0px rgba(0, 0, 0, 0.12),
+}
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover {
+    color: lightblue;
+
+}
+/* style berbentuk class - END*/
+/*card home - BEGIN*/
+
+.cardhome{ 
+    background-color:snow;
+    width: 28%;
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    display:inline-block
+}
+.cardhead{
+    border-bottom: solid 1px aqua;
+    padding: 10px 0px;
+}
+.cardhead h3{
+    margin: 0px;
+    text-align: center;
+    font-family: fantasy;
+}
+.cardbody{
+    padding: 10px;
+    text-align:center;
+}
+.cardbody p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.cardflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*card home - END*/
+
+
