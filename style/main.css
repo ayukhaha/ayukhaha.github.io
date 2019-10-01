@@ -1,0 +1,106 @@
+body {
+    background-color:moccasin;
+    margin: 0px;
+}
+/* style berbentuk class - BEGIN*/
+h1 {
+    color:rgb(42, 168, 190);
+    font-family:"segoe print";
+    font-size: 280%
+}
+h4 {
+    text-align: center;
+}
+a:hover {
+    color: chartreuse;
+}
+.container {
+    background-color: lightcyan) 
+}
+.logo{
+    text-align: center;
+}
+.jumbotron {
+    background-color: rgb(207, 245, 245)
+    border: solid 1px;
+    border-radius: 8px;
+}
+.jumbotron h1{
+    margin: 20px 40px;
+    font-size: 24px 
+}
+.jumbotron h3 {
+    margin: 20px 40px;
+    font-size: 20px
+}
+.footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: rgb(243, 255, 70);
+    padding: 10px 0px;
+    font-size: 11px;
+    text-align: center;
+}
+/* menu header - BEGIN */
+.menu-header {
+    text-align: center;
+    background-color:rgb(235, 163, 185);
+    border-radius: 80px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0 6px 10px 0px rgba(0, 0, 0, 0.14),
+        0 1px 18px 0px rgba(0, 0, 0, 0.12),
+}
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a {
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover {
+    color: lightblue;
+
+}
+/* style berbentuk class - END*/
+/*card home - BEGIN*/
+
+.cardhome{ 
+    background-color:snow;
+    width: 30%;
+    height: 130px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    display:inline-block
+}
+.cardhead{
+    border-bottom: solid 1px aqua;
+    padding: 10px 0px;
+}
+.cardhead h3{
+    margin: 0px;
+    text-align: center;
+    font-family:luna;
+    font-size: 90%
+}
+.cardbody{
+    padding:0px;
+    text-align:center;
+    
+}
+.cardbody p{
+    font-family:Freestyle Script;
+    font-size: 30px;
+
+}
+.cardflex{
+    display:flex-start;
+   justify-content: space-between;
+   text-align: center;
+}
+
+/*card home - END*/
+
+
