@@ -70,8 +70,8 @@ a:hover {
 
 .cardhome{ 
     background-color:snow;
-    width: 15%;
-    height: 120px;
+    width: 30%;
+    height: 130px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
     display:inline-block
 }
@@ -82,15 +82,18 @@ a:hover {
 .cardhead h3{
     margin: 0px;
     text-align: center;
-    font-family:Century Gothic;
+    font-family:luna;
+    font-size: 90%
 }
 .cardbody{
-    padding: 10px;
+    padding:0px;
     text-align:center;
+    
 }
 .cardbody p{
     font-family:Freestyle Script;
-    font-size: 25px;
+    font-size: 30px;
+
 }
 .cardflex{
     display:flex-start;
