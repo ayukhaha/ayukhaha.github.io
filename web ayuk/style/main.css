@@ -43,8 +43,8 @@ a:hover {
 }
 /* menu header - BEGIN */
 .menu-header {
-    text-align: center
-    background-color: black;
+    text-align: center;
+    background-color:rgb(235, 163, 185);
     border-radius: 80px;
     box-shadow: 
         0 3px 5px -1px rgba(0, 0, 0, 0.2),
@@ -56,7 +56,7 @@ a:hover {
 }
 .menu-header a {
     text-transform: uppercase;
-    color: black;
+    color:white;
     text-decoration: none;
     padding: 10px 20px;
     letter-spacing: 1px;
@@ -70,9 +70,8 @@ a:hover {
 
 .cardhome{ 
     background-color:snow;
-    width: 28%;
-    height: 160px;
-    border-radius: 0px 0px 20px 20px;
+    width: 20%;
+    height: 150px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
     display:inline-block
 }
